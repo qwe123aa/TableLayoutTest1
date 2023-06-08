@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TableLayoutTest1</string>
+    <string name="btn_plus">더하기</string>
+    <string name="btn_minus">빼기</string>
+    <string name="btn_multiply">곱하기</string>
+    <string name="btn_divide">나누기</string>
+    <string name="text_result">계산 결과 : </string>
+</resources>
