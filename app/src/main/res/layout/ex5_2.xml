@@ -26,6 +26,14 @@
 
         <TableRow>
             <Button
+                android:id="@+id/btn0"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
                 android:id="@+id/btn1"
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
@@ -56,6 +64,9 @@
                 android:layout_marginRight="10dp"
                 />
 
+        </TableRow>
+
+        <TableRow>
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="70dp"
@@ -64,9 +75,6 @@
                 android:layout_marginRight="10dp"
                 />
 
-        </TableRow>
-
-        <TableRow>
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="70dp"
@@ -98,13 +106,6 @@
                 android:layout_marginRight="10dp"
                 />
 
-            <Button
-                android:id="@+id/btn0"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:layout_marginRight="10dp"
-                />
         </TableRow>
 
     </TableLayout>
@@ -152,9 +153,7 @@
         android:textColor="#ff0000"
         android:textStyle="bold"
         android:textSize="30sp"
-        android:text="@string/text_result"
-
-        />
+        android:text="@string/text_result" />
 
 
 </LinearLayout>
